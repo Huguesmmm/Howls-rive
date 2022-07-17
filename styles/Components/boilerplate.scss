@@ -2,6 +2,9 @@
 
 html,
 body {
+  background: $background-fallback;
+  background: $background-old-radiant;
+  background: $background-radiant;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
