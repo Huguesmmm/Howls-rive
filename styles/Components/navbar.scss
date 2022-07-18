@@ -1,0 +1,14 @@
+@use '../util/'as *;
+
+.navbar{
+
+    display: flex;
+    height: 15vh;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+
+    .navbar-brand{
+        display: flex;
+        margin: 10px;
+    }
+}

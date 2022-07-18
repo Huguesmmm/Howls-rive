@@ -1,9 +1,12 @@
-@use '../util/'as *;
+@use '../util/' as *;
+
+@forward './navbar.scss';
+@forward './howl-face.scss';
 
 html,
 body {
   background: $background-fallback;
-  background: $background-old-radiant;
+  background: $old-background-radiant;
   background: $background-radiant;
   padding: 0;
   margin: 0;

@@ -1,4 +1,8 @@
 // radiant background
 $background-fallback: #0F2027;  /* fallback for old browsers */
-$background-old-radiant: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+$old-background-radiant: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
 $background-radiant: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+//Colors
+$text-color: #fff;
+$border-color: #fff;
